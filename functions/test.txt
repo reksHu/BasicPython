@@ -1,0 +1,4 @@
+my write0
+my write1
+my write2
+my write3

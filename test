@@ -1,0 +1,17 @@
+import time
+
+# import calendar
+
+timeSpan = 1381419600
+timeArray = time.localtime(time.time())
+
+otherTimeStyle = time.strftime("%Y/%m/%d %H:%M:%S", timeArray)
+print(otherTimeStyle)
+print("#" * 40)
+a = 'print %s. ' % 'python'
+print(a)
+
+table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+for name, phone in table.items():
+    print('{0:5} ==>{1:10}'.format(name, phone))
+    print('{0} ==> {1}'.format(name, phone))
