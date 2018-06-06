@@ -17,6 +17,9 @@ def dmy2ymd(dmy):
     return dt.datetime.strptime(dmy.decode('utf-8'),'%d-%m-%Y').date().strftime("%Y-%m-%d")
     # return dt.datetime.strptime(str(dmy,'utf-8'),'%d-%b-%y').date().strftime("%Y-%m-%d")
 
+
+
+
 def read_csv():
     fileName ='aapl2.csv'
     dates, openPrice, highPrice, lowPrice, closePrice,volumn = \
